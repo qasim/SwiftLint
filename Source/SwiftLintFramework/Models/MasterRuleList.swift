@@ -63,6 +63,7 @@ public let masterRuleList = RuleList(rules:
     LineLengthRule.self,
     MarkRule.self,
     MissingDocsRule.self,
+    MixedIndentationRule.self,
     NestingRule.self,
     OpeningBraceRule.self,
     OperatorFunctionWhitespaceRule.self,

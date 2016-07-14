@@ -166,6 +166,10 @@ class RulesTests: XCTestCase {
         verifyRule(MissingDocsRule.description)
     }
 
+    func testMixedIndentation() {
+        verifyRule(MixedIndentationRule.description)
+    }
+
     func testNesting() {
         verifyRule(NestingRule.description)
     }
