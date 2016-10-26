@@ -9,7 +9,7 @@
 import Foundation
 import SourceKittenFramework
 
-public struct MixedIndentationRule: ConfigurationProviderRule {
+public struct MixedIndentationRule: OptInRule, ConfigurationProviderRule {
 
     public var configuration = SeverityConfiguration(.Error)
 
